@@ -5,12 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class ExitInstruction : MonoBehaviour
 {
-    void Update()
+    public void CambiarEscena()
     {
-        if (Input.GetKeyDown(KeyCode.Return)) // Enter
-        {
-            SceneManager.LoadScene("Selection");
-            GameManager.Instance.vidaMaxima = 100f;
-        }
+        SceneManager.LoadScene("Selection");
+        GameManager.Instance.vidaMaxima = 100f;
     }
 }

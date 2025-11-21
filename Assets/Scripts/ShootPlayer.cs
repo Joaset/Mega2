@@ -7,7 +7,6 @@ public class ShootPlayer : MonoBehaviour
     [SerializeField] private Transform firePoint;
     [SerializeField] private Transform firePoint1;
     [SerializeField] private Transform firePoint2;
-
     [SerializeField] private GameObject bullet;
     [SerializeField] private GameObject bullet2;
     [SerializeField] private GameObject powerUpActivo;
@@ -27,18 +26,19 @@ public class ShootPlayer : MonoBehaviour
 
     void Update()
     {
-            Shoot();
-    }
-
-    void Shoot()
-    {
+        //Shoot();
         if (tiempoSiguienteAtaque > 0)
         {
             tiempoSiguienteAtaque -= Time.deltaTime;
         }
+
+    }
+
+    public void Shoot()
+    {
         if (!disparoDoble)
         {
-            if (Input.GetButtonDown("Jump") && tiempoSiguienteAtaque <= 0 && puedeDisparar == true)
+            if (tiempoSiguienteAtaque <= 0 && puedeDisparar == true)
             {
             Instantiate(bullet, firePoint.position, firePoint.rotation);
             AudioManager.Instance.PlayAudio(AudioManager.Instance.shoot);
@@ -47,7 +47,7 @@ public class ShootPlayer : MonoBehaviour
         }
         else
         {
-            if (Input.GetButtonDown("Jump") && tiempoSiguienteAtaque <= 0 && puedeDisparar == true)
+            if (tiempoSiguienteAtaque <= 0 && puedeDisparar == true)
             {
                 Instantiate(bullet, firePoint1.position, firePoint1.rotation);
                 Instantiate(bullet2, firePoint2.position, firePoint2.rotation);
