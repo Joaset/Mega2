@@ -1784,11 +1784,11 @@ RectTransform:
   - {fileID: 430267673}
   m_Father: {fileID: 2010879093}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -463}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 24}
   m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &907238986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2203,6 +2203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee185e9ff7a2e344996952b8c2eb420e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shooterFinal: {fileID: 0}
 --- !u!1 &1101144254
 GameObject:
   m_ObjectHideFlags: 0
@@ -2939,7 +2940,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -13.42, y: -17.127289}
+  m_AnchoredPosition: {x: -13.419998, y: -17.12732}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1436727056
@@ -4423,11 +4424,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2010879093}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -877, y: -461}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 41, y: 33.5}
   m_SizeDelta: {x: 64, y: 64}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0, y: 0}
 --- !u!95 &1972188828
 Animator:
   serializedVersion: 5

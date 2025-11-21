@@ -35,7 +35,6 @@ public class BotonShootPlayer : MonoBehaviour
 
     public void DispararBotonFinal()
     {
-        if (shooterFinal != null)
-            shooterFinal.Shoot();
+         shooterFinal.Shoot();
     }
 }
