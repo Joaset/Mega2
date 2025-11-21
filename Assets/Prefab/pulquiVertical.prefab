@@ -4985,6 +4985,7 @@ GameObject:
   - component: {fileID: 7841764248209543939}
   - component: {fileID: 7986417018312196283}
   - component: {fileID: 3195677657844053542}
+  - component: {fileID: 7998916764713110185}
   m_Layer: 6
   m_Name: pulquiVertical
   m_TagString: Player
@@ -5206,11 +5207,27 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8939471889585245304}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e1db4a6b0ed7bc245a686bb71ef7b403, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 5
+  hudAbajo: 1.5
+  hudArriba: 0
+--- !u!114 &7998916764713110185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8939471889585245304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef011eddea246034bb997b82a71ce919, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidad: 5
+  joystick: {fileID: 0}
   hudAbajo: 1.5
   hudArriba: 0

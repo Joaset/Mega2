@@ -18,16 +18,16 @@ public class ShootPlayerFinal : MonoBehaviour
 
     void Update()
     {
-            Shoot();
-    }
-
-    void Shoot()
-    {
+        //Shoot();
         if (tiempoSiguienteAtaque > 0)
         {
             tiempoSiguienteAtaque -= Time.deltaTime;
         }
-        if (Input.GetButtonDown("Jump") && tiempoSiguienteAtaque <= 0 && puedeDisparar == true)
+    }
+
+    public void Shoot()
+    {
+        if (tiempoSiguienteAtaque <= 0 && puedeDisparar == true)
         {
             Instantiate(bullet, firePoint2.position, firePoint2.rotation);
             Instantiate(bullet, firePoint3.position, firePoint3.rotation);

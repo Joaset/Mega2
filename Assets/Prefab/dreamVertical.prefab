@@ -4954,6 +4954,7 @@ GameObject:
   - component: {fileID: 7472161999360124593}
   - component: {fileID: 2086996550476764139}
   - component: {fileID: 5942978044691708443}
+  - component: {fileID: -4225218540786451305}
   m_Layer: 6
   m_Name: dreamVertical
   m_TagString: Player
@@ -5175,12 +5176,28 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6895364164160344049}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0fd883643a065e24cb51d4dabe9f7740, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 5
+  hudAbajo: 1.5
+  hudArriba: 0
+--- !u!114 &-4225218540786451305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6895364164160344049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067224ca0edfc5b43a61bfa2c5fb1a77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidad: 5
+  joystick: {fileID: 0}
   hudAbajo: 1.5
   hudArriba: 0
 --- !u!1 &8473369990322199822

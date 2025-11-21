@@ -4954,6 +4954,7 @@ GameObject:
   - component: {fileID: 4069353564931895731}
   - component: {fileID: 4258533457949554419}
   - component: {fileID: 8702719623026528865}
+  - component: {fileID: 4914700204524030963}
   m_Layer: 6
   m_Name: namber-uanVertical
   m_TagString: Player
@@ -5175,12 +5176,28 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5174046561697493741}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e1db4a6b0ed7bc245a686bb71ef7b403, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 5
+  hudAbajo: 1.5
+  hudArriba: 0
+--- !u!114 &4914700204524030963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5174046561697493741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef011eddea246034bb997b82a71ce919, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidad: 5
+  joystick: {fileID: 0}
   hudAbajo: 1.5
   hudArriba: 0
 --- !u!1 &5712140163529261072

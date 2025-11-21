@@ -4923,6 +4923,7 @@ GameObject:
   - component: {fileID: 3244699466882726030}
   - component: {fileID: 5090288903758932595}
   - component: {fileID: 5647414062203650470}
+  - component: {fileID: 842368182136192759}
   m_Layer: 6
   m_Name: namber-uan
   m_TagString: Player
@@ -5080,7 +5081,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6045144173819452637}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 47258dc859e168d429e9071bd361fa41, type: 3}
   m_Name: 
@@ -5155,6 +5156,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   colorOriginal: {r: 0, g: 0, b: 0, a: 0}
   spriteRenderer: {fileID: 0}
+--- !u!114 &842368182136192759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6045144173819452637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef011eddea246034bb997b82a71ce919, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidad: 5
+  joystick: {fileID: 2929252283123773951, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
+  hudAbajo: 1.5
+  hudArriba: 0
 --- !u!1 &7200246242756716750
 GameObject:
   m_ObjectHideFlags: 0

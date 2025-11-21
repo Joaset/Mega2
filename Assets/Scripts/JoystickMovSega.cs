@@ -1,9 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class JoystickMov : MonoBehaviour
+public class JoystickMovSega : MonoBehaviour
 {
     [SerializeField] private float velocidad = 5f;
     [SerializeField] Joystick joystick;
@@ -37,8 +36,8 @@ public class JoystickMov : MonoBehaviour
         transform.position += direccion * velocidad * Time.deltaTime;
 
         // ? Animaciones
-        animator.SetBool("Up", movY > 0.1f);
-        animator.SetBool("Down", movY < -0.1f);
+        animator.SetBool("SegaUp", movY > 0.1f);
+        animator.SetBool("SegaDown", movY < -0.1f);
 
         // ? Calcular límites de la cámara
         Camera cam = Camera.main;
